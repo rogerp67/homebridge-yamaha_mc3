@@ -1,0 +1,35 @@
+{
+  "name": "homebridge-yamaha_mc3",
+  "version": "1.0.3",
+  "description": "Homebridge plugin for homebridge: https://github.com/rogerp67/homebridge-yamaha_mc3",
+  "license": "UNLICENSED",
+  "keywords": [
+    "homebridge-plugin",
+    "Yamaha",
+    "Musiccast",
+    "Homekit",
+    "Siri"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rogerp67/homebridge-yamaha_mc3.git"
+  },
+  "bugs": {
+    "url": "http://github.com/rogerp67/homebridge-yamaha_mc3/issues"
+  },
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.0"
+  },
+  "dependencies": {
+    "peer-ssdp": "0.0.5",
+    "request": "^2.69.0",
+    "url": "0.11.0"
+  },
+  "homepage": "https://github.com/rogerp67/homebridge-yamaha_mc3#readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rogerp67 <roger@cambit.nl>"
+}
