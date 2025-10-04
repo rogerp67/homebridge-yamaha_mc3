@@ -12,17 +12,17 @@ For my Yamaha RN-602 the maximum volume setting is 161, for the WX-030 and the W
 Check the max volume setting by using this url in your homenetwork: http://192.168.1.220/YamahaExtendedControl/v1/main/getStatus (with your own Yamaha IP address of course, set it static via the http interface)
 Find the value at "max_volume", in the JSON string result.
 Add as much speakers you have as a new accessory:
-
+(LAST version change YamahaMC3 with homebridge-yamaha_mc3 in the JSON config:)
 "accessories": [
         {
-          "accessory": "YamahaMC3",
+          "accessory": "homebridge-yamaha_mc3",
           "name": "Yamaha RN-602",
           "host": "192.168.1.210",
           "zone": "main",
 		  "maxvol":161
         },
         {         
-          "accessory": "YamahaMC3",
+          "accessory": "homebridge-yamaha_mc3",
           "name": "Yamaha WX-030",
           "host": "192.168.1.220",
           "zone": "main",
